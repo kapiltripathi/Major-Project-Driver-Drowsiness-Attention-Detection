@@ -2,7 +2,7 @@ Drowsiness detection system is regarded as an effective tool to reduce the numbe
 
 
 
-The algorithm is coded on OpenCV platform in Linux environment. The parameters considered to detect drowsiness are face and eye detection, blinking, eye closure and head tilt . The algorithm is Haar trained to detect the face. Once the face is detected, the facial landmarks position around the eyes and mouth are determined. 
+The algorithm is coded on OpenCV platform in Linux environment. The parameters considered to detect drowsiness are face and eye detection, blinking, eye closure and head tilt . The algorithm is Haar trained to detect the face. Once the face is detected, the facial landmarks position around the eyes and mouth are determined. For Facial Landmarks download the 'shape_predictor_68_face_landmarks.dat' easily available on github . Contains trained Facial Landmarks Detector
 
 
 The larger the dataset better would be the cascade classifier.Training a Haar cascade classifier requires high computation power and patience.Though LBP is quicker HaarCascades Classifier achieves better accuracy.For Training we referred :https://docs.opencv.org/3.4.1/dc/d88/tutorial_traincascade.html .
